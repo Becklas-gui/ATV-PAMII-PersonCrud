@@ -18,4 +18,62 @@ export default function HomeScreen({ navigation }) {
     loadPeople();
   },[]);
 
+
+
+return(
+  <View style={styles.container}>
+    <Text style ={styles.title}>Pessoas</Text>  
+    <Button title="Adicionar Pessoa"
+    onPress={()=> navigation.navigate("AddEdit")}/>
+
+    <FlatList data= {people}
+    keyExtractor={(item)=>item.id.toString()}
+
+    renderItem={({item})=>(
+      <CardPersonal
+      item={item}
+      navigation={navigation}
+      refresh={loadPeople}
+      />
+    )}
+    />
+ </View>
+);
+}
+//-------------------------
+function CardPersonal({item, navigation, refresh}){
+  return(
+    <View style={styles.card}>
+
+      <View>
+
+        <Text style={styles.name}>
+        {item.CharacterName} {item.description}
+        </Text>
+
+        <Text style={styles.email}>
+        {item.description}
+        </Text>
+
+      </View>
+
+      <View>
+
+          <Button
+          title="Editar"
+          onPress={()=>navigation.navigate("AddEdit", {person:item})}
+          />
+
+          <Button
+          title="Deletar"
+          onPress={async()=>{
+            await deletePerson(item.id);
+            refresh();
+          }}
+          />
+
+      </View>
+
+    </View>
+  )
 }
