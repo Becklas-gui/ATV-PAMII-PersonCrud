@@ -1,0 +1,12 @@
+{
+    "Characters" : [
+        {
+            "id": 1,
+            "CharacterName": "Player",
+            "Type": "Player1",
+            "descripton": "It's what they call 'you'"
+        }
+
+
+    ]
+}
