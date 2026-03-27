@@ -29,4 +29,38 @@ export default function AddEditScreen({ route, navigation }) {
 
     navigation.goBack();
   }
+
+
+return(
+<View style={styles.container}>
+
+ <TextInput
+ placeholder="Character Name"
+ value={CharacterName}
+ onChangeText={setCharacterName}
+ />
+
+ <TextInput
+ placeholder="Description"
+ value={description}
+ onChangeText={setDescription}
+ />
+
+ <TextInput
+ placeholder="Type"
+ value={Type}
+ onChangeText={setType}
+ />
+
+ <Button
+ title="Salvar"
+ onPress={save}/>
+
+<Button
+ title="Cancelar"
+ onPress={()=> navigation.goBack()}/>
+
+
+</View>
+);
 }
