@@ -12,10 +12,11 @@ export default function AddEditScreen({ route, navigation }) {
   const [CharacterName, setCharacterName] = useState(person?.CharacterName || "");
   const [description, setDescription] = useState(person?.description || "");
   const [Type, setType] = useState(person?.Type || "");
+  const [StandName, setStandName] = useState(person?.StandName || "");
 
   async function save(){
 
-    const data = {CharacterName, description, Type };
+    const data = {CharacterName, description, Type, StandName };
 
     if(person){
 
@@ -52,6 +53,12 @@ return(
  onChangeText={setType}
  />
 
+  <TextInput
+ placeholder="StandName"
+ value={StandName}
+ onChangeText={setStandName}
+ />  
+   
  <Button
  title="Salvar"
  onPress={save}/>
