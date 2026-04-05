@@ -2,9 +2,10 @@
     "Characters" : [
         {
             "id": 1,
-            "CharacterName": "Player",
-            "Type": "Player1",
-            "descripton": "It's what they call 'you'"
+            "CharacterName": "Johnny Joestar",
+            "Type": "Stand user",
+            "descripton": "Disabled jockey",
+            "StandName": "Tusk"
         }
 
 
