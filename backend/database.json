@@ -1,13 +1,361 @@
 {
     "Characters" : [
-        {
-            "id": 1,
-            "CharacterName": "Johnny Joestar",
-            "Type": "Stand user",
-            "descripton": "Disabled jockey",
-            "StandName": "Tusk"
-        }
-
-
-    ]
+  {
+    "id": 1,
+    "CharacterName": "Johnny Joestar",
+    "Type": "Stand user",
+    "descripton": "Disabled jockey seeking redemption through the Steel Ball Run race.",
+    "StandName": "Tusk"
+  },
+  {
+    "id": 2,
+    "CharacterName": "Gyro Zeppeli",
+    "Type": "Stand user",
+    "descripton": "Italian executioner and master of the Spin, racing to save a child.",
+    "StandName": "Ball Breaker"
+  },
+  {
+    "id": 3,
+    "CharacterName": "Diego Brando",
+    "Type": "Stand user",
+    "descripton": "Ambitious British racer with ruthless tactics and predator instincts.",
+    "StandName": "Scary Monsters"
+  },
+  {
+    "id": 4,
+    "CharacterName": "Funny Valentine",
+    "Type": "Villain",
+    "descripton": "President of the United States manipulating the race for national power.",
+    "StandName": "Dirty Deeds Done Dirt Cheap"
+  },
+  {
+    "id": 5,
+    "CharacterName": "Lucy Steel",
+    "Type": "Support",
+    "descripton": "Young woman caught in the conflict, carrying secrets that shape the race.",
+    "StandName": "Ticket to Ride"
+  },
+  {
+    "id": 6,
+    "CharacterName": "Steven Steel",
+    "Type": "Organizer",
+    "descripton": "Founder of the Steel Ball Run race, determined to make history.",
+    "StandName": "None"
+  },
+  {
+    "id": 7,
+    "CharacterName": "Mountain Tim",
+    "Type": "Stand user",
+    "descripton": "Cowboy racer who protects others while tracking hidden conspiracies.",
+    "StandName": "Oh! Lonesome Me"
+  },
+  {
+    "id": 8,
+    "CharacterName": "Wekapipo",
+    "Type": "Stand user",
+    "descripton": "Former Neapolitan soldier using steel balls and revenge as fuel.",
+    "StandName": "Wired"
+  },
+  {
+    "id": 9,
+    "CharacterName": "Hot Pants",
+    "Type": "Stand user",
+    "descripton": "Mysterious racer searching for a holy relic to cleanse their sins.",
+    "StandName": "Cream Starter"
+  },
+  {
+    "id": 10,
+    "CharacterName": "Sandman",
+    "Type": "Stand user",
+    "descripton": "Native American runner aiming to win the race for his people.",
+    "StandName": "In a Silent Way"
+  },
+  {
+    "id": 11,
+    "CharacterName": "Pocoloco",
+    "Type": "Stand user",
+    "descripton": "Carefree competitor who relies on absurd luck to survive every stage.",
+    "StandName": "Hey Ya!"
+  },
+  {
+    "id": 12,
+    "CharacterName": "Blackmore",
+    "Type": "Stand user",
+    "descripton": "Cold assassin who uses rain as a weapon to stop intruders.",
+    "StandName": "Catch the Rainbow"
+  },
+  {
+    "id": 13,
+    "CharacterName": "Ringo Roadagain",
+    "Type": "Stand user",
+    "descripton": "Gunslinger obsessed with the concept of true man's world.",
+    "StandName": "Mandom"
+  },
+  {
+    "id": 14,
+    "CharacterName": "Axl RO",
+    "Type": "Stand user",
+    "descripton": "Killer hiding in the desert who traps victims in invisible worlds.",
+    "StandName": "Civil War"
+  },
+  {
+    "id": 15,
+    "CharacterName": "Mike O.",
+    "Type": "Stand user",
+    "descripton": "Racer who fights using illusions and twisted sound manipulation.",
+    "StandName": "Tubular Bells"
+  },
+  {
+    "id": 16,
+    "CharacterName": "Oyecomova",
+    "Type": "Stand user",
+    "descripton": "Explosives expert using remote detonations to hunt down targets.",
+    "StandName": "Boku no Rhythm wo Kiitekure"
+  },
+  {
+    "id": 17,
+    "CharacterName": "Mrs. Robinson",
+    "Type": "Stand user",
+    "descripton": "Creepy pursuer who controls flesh-eating insects in battle.",
+    "StandName": "None"
+  },
+  {
+    "id": 18,
+    "CharacterName": "Pork Pie Hat Kid",
+    "Type": "Stand user",
+    "descripton": "Mysterious rider using deadly rotating blades hidden in his horse.",
+    "StandName": "Wired"
+  },
+  {
+    "id": 19,
+    "CharacterName": "Benjamin Boom Boom",
+    "Type": "Stand user",
+    "descripton": "Explosive maniac who attacks racers with pure destruction.",
+    "StandName": "Boom Boom Family"
+  },
+  {
+    "id": 20,
+    "CharacterName": "Andre Boom Boom",
+    "Type": "Stand user",
+    "descripton": "One of the Boom Boom brothers using explosive family teamwork.",
+    "StandName": "Boom Boom Family"
+  },
+  {
+    "id": 21,
+    "CharacterName": "L.A. Boom Boom",
+    "Type": "Stand user",
+    "descripton": "Explosive racer who believes violence is the fastest path to victory.",
+    "StandName": "Boom Boom Family"
+  },
+  {
+    "id": 22,
+    "CharacterName": "Sugar Mountain",
+    "Type": "Neutral",
+    "descripton": "Guardian of a strange forest who tests greed and fate.",
+    "StandName": "Sugar Mountain Spring"
+  },
+  {
+    "id": 23,
+    "CharacterName": "Eleven Men",
+    "Type": "Enemy",
+    "descripton": "Group of assassins working together to eliminate racers.",
+    "StandName": "None"
+  },
+  {
+    "id": 24,
+    "CharacterName": "Magenta Magenta",
+    "Type": "Stand user",
+    "descripton": "Loyal soldier who becomes nearly impossible to kill.",
+    "StandName": "20th Century Boy"
+  },
+  {
+    "id": 25,
+    "CharacterName": "Dr. Ferdinand",
+    "Type": "Stand user",
+    "descripton": "Scientist obsessed with anatomy who creates monsters from living flesh.",
+    "StandName": "Scary Monsters (Replica)"
+  },
+  {
+    "id": 26,
+    "CharacterName": "Pompilius",
+    "Type": "Enemy",
+    "descripton": "Hidden operative tracking the relics through the race routes.",
+    "StandName": "None"
+  },
+  {
+    "id": 27,
+    "CharacterName": "Nicholas Joestar",
+    "Type": "Support",
+    "descripton": "A ghost of the past motivating Johnny to move forward.",
+    "StandName": "None"
+  },
+  {
+    "id": 28,
+    "CharacterName": "Gregorio Zeppeli",
+    "Type": "Support",
+    "descripton": "Gyro's father whose teachings shaped the Spin technique.",
+    "StandName": "None"
+  },
+  {
+    "id": 29,
+    "CharacterName": "Marco Zeppeli",
+    "Type": "Support",
+    "descripton": "Gyro's younger brother who becomes the reason for his mission.",
+    "StandName": "None"
+  },
+  {
+    "id": 30,
+    "CharacterName": "Pietro Zeppeli",
+    "Type": "Support",
+    "descripton": "Member of the Zeppeli family connected to the executioner lineage.",
+    "StandName": "None"
+  },
+  {
+    "id": 31,
+    "CharacterName": "D-I-S-C-O",
+    "Type": "Stand user",
+    "descripton": "Valentine’s soldier who fights by manipulating energy and movement.",
+    "StandName": "Chocolate Disco"
+  },
+  {
+    "id": 32,
+    "CharacterName": "Scarlet Valentine",
+    "Type": "Support",
+    "descripton": "The First Lady of America, part of the hidden political struggle.",
+    "StandName": "None"
+  },
+  {
+    "id": 33,
+    "CharacterName": "Mrs. Steel",
+    "Type": "Support",
+    "descripton": "Steven Steel’s wife, caught between loyalty and fear.",
+    "StandName": "None"
+  },
+  {
+    "id": 34,
+    "CharacterName": "Noriosuke Higashikata",
+    "Type": "Neutral",
+    "descripton": "Wealthy sponsor interested in the relic’s value and the race’s chaos.",
+    "StandName": "None"
+  },
+  {
+    "id": 35,
+    "CharacterName": "Mister President",
+    "Type": "Enemy",
+    "descripton": "A strange figure who offers shelter while hiding dangerous intentions.",
+    "StandName": "Mr. President"
+  },
+  {
+    "id": 36,
+    "CharacterName": "Kansas Kid",
+    "Type": "Stand user",
+    "descripton": "Outlaw racer who fights using rapid-fire precision shots.",
+    "StandName": "Six Bullets"
+  },
+  {
+    "id": 37,
+    "CharacterName": "Dusty Wheeler",
+    "Type": "Player",
+    "descripton": "Young rider trying to prove himself in the brutal American desert.",
+    "StandName": "Iron Prayer"
+  },
+  {
+    "id": 38,
+    "CharacterName": "Eleanor Pike",
+    "Type": "Stand user",
+    "descripton": "A quiet competitor who manipulates wind currents to boost speed.",
+    "StandName": "Free Bird"
+  },
+  {
+    "id": 39,
+    "CharacterName": "Caleb McGraw",
+    "Type": "Stand user",
+    "descripton": "Mercenary racer who uses sandstorms to hide deadly attacks.",
+    "StandName": "Desert Rose"
+  },
+  {
+    "id": 40,
+    "CharacterName": "Hector Redd",
+    "Type": "Enemy",
+    "descripton": "Bounty hunter who chases racers for money rather than victory.",
+    "StandName": "Wanted Dead"
+  },
+  {
+    "id": 41,
+    "CharacterName": "Olivia Cross",
+    "Type": "Stand user",
+    "descripton": "Strategic rider who manipulates shadows under moonlight.",
+    "StandName": "Dark Side Moon"
+  },
+  {
+    "id": 42,
+    "CharacterName": "Vince O'Hara",
+    "Type": "Stand user",
+    "descripton": "Irish racer who controls vibrations through his horse’s hooves.",
+    "StandName": "Thunderstruck"
+  },
+  {
+    "id": 43,
+    "CharacterName": "Rafael Cortez",
+    "Type": "Stand user",
+    "descripton": "Former soldier using sharp metal Spin discs as ranged weapons.",
+    "StandName": "Metallica Road"
+  },
+  {
+    "id": 44,
+    "CharacterName": "Luther Graves",
+    "Type": "Villain",
+    "descripton": "Relic hunter who kills silently and steals pieces of the corpse.",
+    "StandName": "Silent Requiem"
+  },
+  {
+    "id": 45,
+    "CharacterName": "Maya Silver",
+    "Type": "Stand user",
+    "descripton": "Racer who bends light to create mirages and confuse enemies.",
+    "StandName": "Blinding Star"
+  },
+  {
+    "id": 46,
+    "CharacterName": "Dorian Flint",
+    "Type": "Stand user",
+    "descripton": "Rider who manipulates rock fragments to create defensive armor.",
+    "StandName": "Stone Temple"
+  },
+  {
+    "id": 47,
+    "CharacterName": "Ezekiel Ward",
+    "Type": "Stand user",
+    "descripton": "Preacher-like competitor who weaponizes sound waves like sermons.",
+    "StandName": "Holy Diver"
+  },
+  {
+    "id": 48,
+    "CharacterName": "Sienna Vale",
+    "Type": "Stand user",
+    "descripton": "Cold-hearted competitor who controls ice shards during night stages.",
+    "StandName": "White Album (Frontier)"
+  },
+  {
+    "id": 49,
+    "CharacterName": "Tobias Kane",
+    "Type": "Enemy",
+    "descripton": "Horse thief who sneaks into camps and sabotages supplies.",
+    "StandName": "Steal Away"
+  },
+  {
+    "id": 50,
+    "CharacterName": "Helena Starr",
+    "Type": "Stand user",
+    "descripton": "Showwoman racer who turns applause into energy for her attacks.",
+    "StandName": "Spotlight Queen"
+  },
+  {
+    "id": 51,
+    "CharacterName": "Gideon Ash",
+    "Type": "Stand user",
+    "descripton": "Ruthless duelist who resets time in short bursts to win gunfights.",
+    "StandName": "Second Hand"
+  }
+]
 }
