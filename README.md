@@ -1,4 +1,4 @@
-Descrição do projeto /n
+Descrição do projeto \n
 Esse projeto é um aplicativo mobile inspirado em Steel Ball Run feito como atividade com o objetivo de consumir uma api própria. O aplicativo carrega os dados da api e exibe-os em forma de uma lista, mostrando nomes, e outras informações dos usuários adicionados
 
 Tecnologias utilizadas/n
